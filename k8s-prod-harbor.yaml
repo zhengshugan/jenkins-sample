@@ -14,7 +14,7 @@ spec:
         app: jenkins-demo
     spec:
       containers:
-      - image: 172.16.1.165/jenkins-demo/jenkins-demo:<BUILD_TAG>
+      - image: 192.168.40.200/jenkins-demo/jenkins-demo:<BUILD_TAG>
         imagePullPolicy: IfNotPresent
         name: jenkins-demo
         env:
